@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a43aa655c9.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Mood Calendar</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header__container">
+        <div class="function__container">
+          <button class="function__container-ra random f-btn">
+            <i class="ri-shuffle-line"></i>
+          </button>
+          <button class="function__container-re reset f-btn">
+            <i class="ri-loop-left-fill"></i>
+          </button>
+        </div>
+        <h1>2023 Mood Calendar</h1>
+        <h3>~ color each day depending on what you mood was / is ~</h3>
+        <h3>Select mood:</h3>
+        <div class="header__container--mood-icons">
+          <button class="laugh-btn btn mood-1">
+            <i class="fa-regular fa-face-laugh-beam"></i>
+          </button>
+          <button class="smile-btn btn mood-2">
+            <i class="fa-regular fa-face-smile"></i>
+          </button>
+          <button class="meh-btn btn mood-3">
+            <i class="fa-regular fa-face-meh"></i>
+          </button>
+          <button class="frown-btn btn mood-4">
+            <i class="fa-regular fa-face-frown"></i>
+          </button>
+          <button class="tear-btn btn mood-5">
+            <i class="fa-regular fa-face-sad-tear"></i>
+          </button>
+        </div>
+        <h3>Click on the circles below</h3>
+      </div>
+    </div>
+
+    <div class="calendar">
+      <div class="calendar__container"></div>
+    </div>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
